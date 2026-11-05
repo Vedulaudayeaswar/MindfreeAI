@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="UDAY creates websites that keep getting better." />
+    <title>UDAY — Websites that keep getting better</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="shape shape-one" aria-hidden="true"></div>
+      <div class="shape shape-two" aria-hidden="true"></div>
+
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="UDAY home">
+          <span>UDAY</span>
+          <small>AI STUDIO</small>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Open menu</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a class="active" href="#top">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services <span class="chevron">⌄</span></a>
+          <a href="#pricing">Pricing</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#resources">Resources <span class="chevron">⌄</span></a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="header-cta" href="#contact">
+          <span class="mini-avatar" aria-hidden="true">✦</span>
+          <span>Get Started</span>
+          <i class="status-dot" aria-hidden="true"></i>
+        </a>
+      </header>
+
+      <section class="hero-content" aria-labelledby="hero-title">
+        <div class="copy">
+          <p class="eyebrow">DIGITAL EXPERIENCES / BUILT FOR TOMORROW</p>
+          <h1 id="hero-title">WEBSITES THAT KEEP<br /><span>GETTING BETTER</span></h1>
+          <svg class="underline" viewBox="0 0 620 30" role="img" aria-label="Decorative underline">
+            <path d="M8 17 C 150 7, 300 25, 612 14" />
+          </svg>
+          <p class="intro">
+            I’m UDAY, an AI-powered creative partner building bold, high-performing websites for ambitious businesses. I design, develop and refine the whole experience so your online presence keeps getting better.
+          </p>
+          <div class="actions">
+            <a class="button button-primary" href="#contact">Get Started <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="visual">
+          <div class="visual-panel" aria-hidden="true"></div>
+          <div class="bot-wrap">
+            <img src="robo.png?v=F69185E" alt="Friendly AI robot with folded arms" />
+          </div>
+          <div class="note">
+            <span>That’s me. I’ll be the one<br />actually doing the work</span>
+            <svg viewBox="0 0 180 90" aria-hidden="true">
+              <path d="M8 12 C 34 75, 99 84, 155 60" />
+              <path d="M139 47 L158 60 L140 72" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <div class="scroll-cue" aria-hidden="true">SCROLL TO EXPLORE <span>↓</span></div>
+    </main>
+
+    <section class="problem-section" id="about" aria-labelledby="problem-title">
+      <div class="problem-copy">
+        <h2 id="problem-title"><span>IS THIS</span> <b>YOU?</b></h2>
+        <p>Many websites look fine at first, but they fail to attract customers, generate leads, or deliver the results a business needs.</p>
+        <span class="highlight">Sound familiar?</span>
+      </div>
+      <div class="checklist" aria-label="Common website problems">
+        <div class="checklist-strip"></div>
+        <div class="checklist-rows">
+          <div class="check-row"><i aria-hidden="true">×</i><span>Your website looks outdated and needs a fresh direction</span></div>
+          <div class="check-row"><i aria-hidden="true">×</i><span>Small changes take too long and cost too much</span></div>
+          <div class="check-row"><i aria-hidden="true">×</i><span>Your website works on desktop but struggles on mobile</span></div>
+          <div class="check-row"><i aria-hidden="true">×</i><span>Visitors arrive, but very few become customers</span></div>
+          <div class="check-row"><i aria-hidden="true">×</i><span>Your website doesn't reflect the quality of your business</span></div>
+          <div class="check-row"><i aria-hidden="true">×</i><span>Search engines struggle to discover your website</span></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contact"><span>UDAY</span><a href="mailto:hello@uday.studio">hello@uday.studio ↗</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

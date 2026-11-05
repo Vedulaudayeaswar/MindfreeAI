@@ -1,0 +1,17 @@
+node_modules
+node_modules.incomplete
+.venv/
+.next
+out
+npm-debug.log*
+data/
+.env*.local
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# Trained checkpoints, scalers, and large local Piper voice models
+/wellbeing_cnn.pth/
+/feature_scaler.pkl
+/backend/models/
+*.onnx
